@@ -1,0 +1,27 @@
+body {background-color:seagreen}
+.main {text-align: center;}
+#input-item {
+    font-size: 60px;
+    background-color: darkseagreen;
+}
+.botao {
+    height: 50px;
+    width: 100px;
+    font-family: monospace;
+}
+#add-button {
+    background-color:lightseagreen;
+}
+#generate-button {
+    background-color:lightseagreen;
+}
+#clear-button {
+    background-color: crimson;
+}
+#listaItens {
+    font-size: x-large;
+}
+#espaçoResultado {
+    text-align: center;
+    font-size: xx-large;
+}
