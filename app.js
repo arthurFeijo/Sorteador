@@ -42,11 +42,6 @@ function gerar () {
     }
 }
 
-
-
-
-
-
 //ENVIAR COM ENTER v
 document.getElementById("input-item")
     .addEventListener("keyup", function(event) {
@@ -55,15 +50,3 @@ document.getElementById("input-item")
         document.getElementById("add-button").click();
     }
 });
-//-------------------
-
-/*function itemAleatorio () {
-    let i = Math.floor(Math.random() * lista.length)
-    let resultado = lista[i]
-    if (typeof(resultado) != "undefined") {
-        const div = document.createElement('div')
-        div.className = 'main'
-        div.innerText = resultado
-        document.getElementById('espaçoResultado').appendChild(div)
-    }
-}*/
